@@ -6,9 +6,17 @@ int main(){
 	printf("nhap so b",b);
 	scanf("%d",&b);
     if (a>=b){
-    	printf("%d",a/b);
-    	}else{
-    		printf("%d",a*b);
-    		}
-		}
+    	if (b==0){
+    		printf("khong the chia cho 0");
+    		}else{
+    			int c = a/b;
+    			printf("%d/%d = %d",a,b,c);
+    			}
+			}else{
+				int c = a*b;
+				printf("%d/%d x %d",a,c,c);
+			}
+			}
+		
+    
 	
